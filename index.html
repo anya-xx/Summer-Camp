@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+        </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+          <img src="https://t4.ftcdn.net/jpg/04/29/00/83/360_F_429008357_9Koj5MAH2yJ3FGn80BeSmOS12TAIiIbh.jpg" alt="logo" style="width:40px;">
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Activities.html">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact us.html">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+      
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://sotograndecamps.com/wp-content/uploads/2020/04/Sotogrande-luxury-summer-resort-in-Spain.jpg" alt="Calming pools" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="https://image.cnbcfm.com/api/v1/image/48491210-most-expensive-summer-camps-cover1.jpg?v=1349480452" alt="Beautiful tents" width="1100" height="500">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.greatwolf.com/cdn-cgi/image/fit=scale-down,width=1300/content/dam/greatwolf/sites/www/things-to-do/water-park/chinook-cove/chinook-cove-1-1040x585.jpg" alt="Fun water activity" width="1100" height="500">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+</body>
+</html>
